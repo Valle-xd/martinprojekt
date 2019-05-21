@@ -9,7 +9,16 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#00020202" />
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:drawSelectorOnTop="false"
+        android:layout_weight="5" />
+
+    <Button
+        android:id="@+id/goBack"
+        android:text="Go back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
 </LinearLayout>
